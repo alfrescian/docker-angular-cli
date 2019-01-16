@@ -1,8 +1,8 @@
-version: '3.0'
+version: '1.0'
 
 services:
-  docker-angular-cli:
-    image: johnpapa/angular-cli
+  docker-angular-netlify-cli:
+    image: alfrescian/angular-netlify-cli
     build: .
     environment:
       NODE_ENV: production

@@ -1,6 +1,6 @@
-FROM node:10.13-alpine as node-angular-cli
+FROM node:10.13-alpine as node-angular-netlify-cli
 
-LABEL authors="John Papa"
+LABEL authors="John Papa, Jan Pfitzner"
 
 #Linux setup
 RUN apk update \
@@ -12,3 +12,6 @@ RUN apk update \
 
 #Angular CLI
 RUN npm install -g @angular/cli
+
+#Netlify CLI
+RUN npm install netlify-cli -g
