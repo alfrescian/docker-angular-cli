@@ -1,17 +1,17 @@
 # Dockerfile with Angular CLI
 
-Node 8.12 + Angular CLI 6.2.0+
+Node 10.13 + Angular CLI 7.1.2+ + Netlify CLI + Prisma CLI
 
-Find [the image here](https://hub.docker.com/r/johnpapa/angular-cli/)
+Find [the image here](https://hub.docker.com/r/alfrescian/angular-netlify-prisma-clis/)
 
 Pulling the image
 
 ```bash
-docker pull johnpapa/angular-cli
+docker pull alfrescian/angular-netlify-prisma-clis
 ```
 
 Using the image in a `Dockerfile`
 
 ```bash
-FROM johnpapa/angular-cli
+FROM alfrescian/angular-netlify-prisma-clis
 ```

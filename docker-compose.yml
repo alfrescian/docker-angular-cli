@@ -1,8 +1,8 @@
 version: '1.0'
 
 services:
-  docker-angular-netlify-cli:
-    image: alfrescian/angular-netlify-cli
+  docker-angular-netlify-prisma-clis:
+    image: alfrescian/angular-netlify-prisma-clis
     build: .
     environment:
       NODE_ENV: production

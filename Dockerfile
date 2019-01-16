@@ -1,4 +1,4 @@
-FROM node:10.13-alpine as node-angular-netlify-cli
+FROM node:10.13-alpine as node-angular-netlify-prisma-clis
 
 LABEL authors="John Papa, Jan Pfitzner"
 
@@ -15,3 +15,6 @@ RUN npm install -g @angular/cli
 
 #Netlify CLI
 RUN npm install netlify-cli -g
+
+#Prisma CLI
+RUN npm install prisma -g
